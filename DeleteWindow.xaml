@@ -1,0 +1,16 @@
+﻿<Window x:Class="База_данных_фирмы.DeleteWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:База_данных_фирмы"
+        mc:Ignorable="d"
+        Title="Окно Удаления" Height="250" Width="400" Icon="Images/Second.png">
+    <Grid>
+        <TextBox x:Name="DeleteTExtBox" HorizontalAlignment="Center" Margin="0,77,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="380" TextAlignment="Center"/>
+        <Button x:Name="DeleteButton" HorizontalAlignment="Center" Margin="0,127,0,0" VerticalAlignment="Top" Height="64" Width="64" Background="White" BorderBrush="White" Click="DeleteButton_Click">
+            <Image Source="Images/Delete.png"/>
+        </Button>
+        <TextBlock HorizontalAlignment="Center" Margin="0,34,0,0" TextWrapping="Wrap" Text="Введите ID элементов для удаления (через запятую)" VerticalAlignment="Top" Width="380" TextAlignment="Center" />
+    </Grid>
+</Window>

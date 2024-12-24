@@ -1,0 +1,80 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Add.png" />
+    <None Remove="Images\apricot.png" />
+    <None Remove="Images\ChumBucket.png" />
+    <None Remove="Images\Delete.png" />
+    <None Remove="Images\Engi2.png" />
+    <None Remove="Images\First.png" />
+    <None Remove="Images\Mechanism1.gif" />
+    <None Remove="Images\Mechanism2.gif" />
+    <None Remove="Images\Mechanism3.gif" />
+    <None Remove="Images\Mechanism4.gif" />
+    <None Remove="Images\MegaButton.png" />
+    <None Remove="Images\Reload.png" />
+    <None Remove="Images\Replace.png" />
+    <None Remove="Images\Second.png" />
+    <None Remove="Images\абрикос.png" />
+    <None Remove="Images\дерево.png" />
+    <None Remove="Images\лейка.png" />
+    <None Remove="Images\Лопата.png" />
+    <None Remove="Images\НормЛопата.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\абрикос.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\дерево.png" />
+    <Resource Include="Images\лейка.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Лопата.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Add.png" />
+    <Resource Include="Images\ChumBucket.png" />
+    <Resource Include="Images\Delete.png" />
+    <Resource Include="Images\Engi2.png" />
+    <Resource Include="Images\Mechanism1.gif" />
+    <Resource Include="Images\Mechanism2.gif" />
+    <Resource Include="Images\Mechanism3.gif" />
+    <Resource Include="Images\Mechanism4.gif" />
+    <Resource Include="Images\MegaButton.png" />
+    <Resource Include="Images\Reload.png" />
+    <Resource Include="Images\Replace.png" />
+    <Resource Include="Images\Second.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net" Version="0.1.0" />
+    <PackageReference Include="DocumentFormat.OpenXml" Version="3.2.0" />
+    <PackageReference Include="EPPlus" Version="7.5.2" />
+    <PackageReference Include="MySql.Data" Version="9.1.0" />
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\apricot.png" />
+    <Resource Include="Images\First.png" />
+    <Resource Include="Images\НормЛопата.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Important\" />
+    <Folder Include="Файлы\" />
+  </ItemGroup>
+
+</Project>
